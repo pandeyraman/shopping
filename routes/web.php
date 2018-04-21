@@ -15,5 +15,6 @@ Route::get('/customer/show/{id}',['as'=>'customer.show','uses'=>'CustomerControl
 Route::get('/customer/create',['as'=>'customer.create','uses'=>'CustomerController@create']);
 
 Route::post('/customer/store',['as'=>'customer.store','uses'=>'CustomerController@store']);
+Route::get('/customer/index',['as'=>'customer.index','uses'=>'CustomerController@index']);
 
-?>_
+?>
