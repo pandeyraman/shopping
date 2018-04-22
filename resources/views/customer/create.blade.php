@@ -1,8 +1,6 @@
-<html>
-<head>
-    <title>Form</title>
-</head>
-<body>
+@extends('layouts.master')
+
+@section('content')
     <form method="post" action="/customer/store">
 
         <fieldset>
@@ -13,5 +11,4 @@
 
         </fieldset>
     </form>
-</body>
-</html>
+@endsection
