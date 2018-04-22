@@ -15,8 +15,8 @@
             @foreach($customers as $key=>$customer)
                 <tr>
                     <td>{{ $key + 1 }}</td>
-            v>
-            <td><a href="{{ route('$customer.show',['id'=>$customer->customer_id]) }}">< {{ $customer->organization_or_person }}/a></td>
+
+            <td><a href="{{ route('customer.show',['id'=>$customer->customer_id]) }}">{{ $customer->organization_or_person }}</a></td>
                 </tr>
             @endforeach
         </tbody>

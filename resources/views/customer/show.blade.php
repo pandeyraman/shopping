@@ -1,2 +1,2 @@
-{{$customer->first_name}}
-{{$customer->last_name}}
+{{--{{$customer->first_name}}--}}
+{{$customer->organization_or_person}}
