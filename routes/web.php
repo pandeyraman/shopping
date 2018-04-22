@@ -18,6 +18,7 @@ Route::post('/customer/store',['as'=>'customer.store','uses'=>'CustomerControlle
 Route::get('/customer/index',['as'=>'customer.index','uses'=>'CustomerController@index']);
 
 Route::get('/','CustomerController@index');
+Route::get('/home','CustomerController@index');
 //auth
 
 Route::get('login','Auth\LoginController@showLoginForm')->name('login');
